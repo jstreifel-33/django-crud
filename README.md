@@ -8,7 +8,7 @@ This site is not deployed anywhere in the cloud. Please feel free to fork or clo
 
 ## Submission
 
-PR: [Working Branch #1](http.cats)
+PR: [Working Branch #1](https://github.com/jstreifel-33/django-crud/pull/1)
 
 ## Feature Tasks
 
