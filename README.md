@@ -1,5 +1,15 @@
 # Django Crud
 
+An exploration of CRUD using Django models.
+
+## Deployment
+
+This site is not deployed anywhere in the cloud. Please feel free to fork or clone the repository for local deployment.
+
+## Submission
+
+PR: [Working Branch #1](http.cats)
+
 ## Feature Tasks
 
 - [x] Create snacks_crud_project Django project
@@ -20,7 +30,7 @@
 - [x] Create SnackDeleteView that extends appropriate generic view
   - [x] associated url path is `<int:pk>/delete/`
 - [x] Add urls to support all views, with appropriate names
-- [ ] Add templates to support all views
-- [ ] Add navigation links in appropriate locations to access all pages
-- [ ] Make all necessary changes to project level files for project to run
-  - [ ] In other words, make it work
+- [x] Add templates to support all views
+- [x] Add navigation links in appropriate locations to access all pages
+- [x] Make all necessary changes to project level files for project to run
+  - [x] In other words, make it work
