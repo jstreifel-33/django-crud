@@ -19,11 +19,13 @@ class SnackDetailView(DetailView):
 class SnackCreateView(CreateView):
     template_name = 'snack_create.html'
     model = Snack
+    fields = ['title', 'purchaser', 'description']
 
 
 class SnackUpdateView(UpdateView):
     template_name = 'snack_update.html'
     model = Snack
+    fields = ['title', 'description']
 
 
 class SnackDeleteView(DeleteView):
